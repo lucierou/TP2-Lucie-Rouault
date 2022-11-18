@@ -27,10 +27,12 @@ body {
             flex-direction: column;
             background-color: rgb(33, 33, 33);
             color: white;
-            padding: 5%;
+            padding: 4%;
+            border-radius: 4px;
+            box-shadow: 3px 3px rgb(73, 68, 67);
         }
-            form p {
-                margin-bottom: 8px;
+            form label {
+                margin : 8px 0;
             }
             
             #nom {
@@ -40,6 +42,7 @@ body {
             form input {
                 height: 30px;
                 width: 275px;
+                margin-bottom: 5px;
             }
 
             button {
@@ -48,4 +51,5 @@ body {
                 color: white;
                 font-weight: 500;
                 border: none;
+                margin-top: 25px;
             }
