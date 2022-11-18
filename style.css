@@ -22,6 +22,18 @@ body {
                 font-size: 1.5em;
             }
 
+            h1:hover{
+                animation-name: h1effect;
+                animation-duration: 2s;
+                color: rgb(255, 100, 79);
+            }
+              
+                @keyframes h1effect {
+                    0%   { transform: translateY(0); }
+                    50%  { transform: translateY(-50px); }
+                    100% { transform: translateY(0); }
+                }
+
         form {  
             display: flex;
             flex-direction: column;
@@ -53,3 +65,10 @@ body {
                 border: none;
                 margin-top: 25px;
             }
+
+@media (max-width: 768px) 
+{
+    .block_body {
+        flex-direction: column;
+    }
+}
